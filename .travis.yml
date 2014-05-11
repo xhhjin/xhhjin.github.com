@@ -7,7 +7,7 @@ rvm:
 - 1.9.3
 before_script:
 - export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
-- bundle exec rake setup_github_pages $REPO_URL
+- bundle exec rake setup_github_pages[$REPO_URL]
 script:
 - bundle exec rake generate
 after_script:
@@ -15,4 +15,4 @@ after_script:
 env:
   global:
   - GH_REPO="xhhjin/xhhjin.github.com"
-  - secure: "hX8YPgbQV4KMSihYNnprTLezbfNVsQsoTzjRJgfy7/ikje5naMEGdzirF2w3DX3YxKfh+i2fH7GvPnhmbHoklXWdX55l+pIvJoNONQZwgz97ktkOXRCCzm/dmrvF8YUmq/AsATIMa6FFK7InGY7TkCObyWZ+SJJb5tvjPKlyL54="
+  - secure: "AZtqtc8JWN2y78CI+lTyDD2ppHar6eb2Yfs7eTNhFw/a/QBnJ/GLxepgPgBb1rpIAakddKwlchxhZny895gu2RKimEmKGBeBAyDKFZFXhaf4vEIHbsgtMiZ42bYr3XYa2aHSDIOIsBfZ9NRdD/VsDxcRFRHeeH+gjxoklfxFOGI="
