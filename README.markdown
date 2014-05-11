@@ -1,3 +1,5 @@
+Travis-CI Build Status: [![Build Status](https://travis-ci.org/xhhjin/xhhjin.github.com.png)](https://travis-ci.org/xhhjin/xhhjin.github.com)
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.

@@ -1,0 +1,18 @@
+---
+branches:
+  only:
+  - source
+language: ruby
+rvm:
+- 1.9.3
+before_script:
+- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
+- rake setup_github_pages[$REPO_URL]
+script:
+- rake generate
+after_script:
+- rake deploy
+env:
+  global:
+  - GH_REPO="xhhjin/xhhjin.github.com"
+  - secure: "h8qPtCeMG91QLvijO/+Y3ni9PT57N/aJPf0TQ1LRjrnVxhowdZNVRyFrL6qHT4mfsf2qLovHgwjTTGDzpyifYQcHubfsrMrPztHCVy3gaT8WR83FuiM9A0BQvN6gifwm67W948ta51wW/2PDRXXwaVtK8VGJaGEFoEgri8Sx05U="
