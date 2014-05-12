@@ -14,5 +14,5 @@ after_script:
 - bundle exec rake deploy
 env:
   global:
-  - GH_REPO="xhhjin/xhhjin.github.com"
+  - GH_REPO="xhhjin/xhhjin.github.io"
   - secure:"Bme2RMigvmRcGMtDSGTV/kUNnuhY+yFE/KbEUFbJFv/EPulWPv/ETuZ4/TOpD3Ti9oHgpX36nRfcVhuI0AjeY+vYuQNFhv1Ju4CvM0o4BSiUYnVkp8yKf6/qU9bn1tEOFvN+MzzIBTxG9bm1Iv4JxoMDwXlmAg8W9mWI59ANQsk="
