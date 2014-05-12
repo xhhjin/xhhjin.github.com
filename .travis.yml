@@ -14,6 +14,5 @@ after_script:
 env:
   global:
   - GH_REPO="xhhjin/xhhjin.github.io"
-  - secure:"Bme2RMigvmRcGMtDSGTV/kUNnuhY+yFE/KbEUFbJFv/EPulWPv/ETuZ4/TOpD3Ti9oHgpX36nRfcVhuI0AjeY+vYuQNFhv1Ju4CvM0o4BSiUYnVkp8yKf6/qU9bn1tEOFvN+MzzIBTxG9bm1Iv4JxoMDwXlmAg8W9mWI59ANQsk="
-  matrx:
-    secure: q/zaFb+EOqJgCIuwEgORQpDulHLuHgihMqG+U398kpK4r9BXqEvgE7surN+U2VCMhGdAcXmC7VOKw+FW2dZg5gDAVMRwS9xwSv8sPh2QPbj1kT0e+R6Uuo/+ZwwTN7zg1dRcyp9+ka/6aAfdI/oY/eOOamgivRUoATcDNwv/ng0=
+  - secure: UGb44HMVUi5TT9fKeecJ0+zFcIN+sS4jXGwfqPzq6EnL3c4HneaEt5+ByH5a5JnMsyZI760iY2y/GC8V2OBcXSn4+q1ikD+XK/0JmHmlLzr99yb4DOI4TaBECCUWhGXfrxZqcAfBPiFzAqh8/KwOrkbHRFJdoWX6N21jzhTdTUY=
+
