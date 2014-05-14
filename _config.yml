@@ -101,7 +101,7 @@ google_analytics_tracking_id: UA-34018369-1
 # Facebook Like
 facebook_like: false
 
-#prose.io settings 
+#prose.io settings
 prose:
   rooturl: "source"
   metadata:
@@ -128,4 +128,3 @@ prose:
           label: "Published"
           element: "checkbox"
           value: true
-
