@@ -104,7 +104,7 @@ facebook_like: false
 #prose.io settings
 prose:
   rooturl: "source"
-  media: "/images"
+  media: "images"
   metadata:
     "source/_posts":
       - name: "layout"
