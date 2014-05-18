@@ -1,13 +1,11 @@
 ---
 layout: post
 published: true
-title: Title
+title: 打造Octopress博客在线写作平台
 comments: true
 categories: misc
 ---
 
-## 使用 Prose、Github、Octopress以及 Travis-ci写文章
-![Travis-CI](/images/travis-ci.jpg)
-![gravatar](/images/gravatar.jpg)
-![1111](/images/gravatar.jpg)
-使用Octopress作为部落格平台的其中一个问题就是需要在一台电脑上设定一個工作环境。雖然設定環境對有點技術背景的人來說不算太困難，但是只能從有適當環境的電腦來寫文章，似乎不是一件方便的事。Octopress能不能跟其他部落格平台，像是WordPRess一樣，只要使用瀏覽器，就可以隨時隨地寫文章？答案是肯定的，但必須先提醒，本文所介紹的方法對一般使用者來說仍舊牽涉許多技術細節，如果你不了解文章內容描述的方法，請不要輕易嘗試。
+前面介绍了[在Github上搭建Octopress博客](http://xuhehuan.com/783.html)和[Octopress写作及个性设置](http://xuhehuan.com/886.html)，使得大家可以在自己的电脑上建立Octopress博客的写作环境，并发布文章到Github，大多数情况下，这是没有问题的，但如果有一天想写博客而自己的电脑又不在身边，一些就变得不那么方便了，我们还需要重新设定一切环境，虽不困难，但未免有些麻烦。这时我们最好能有个类似在线写作后台的东西，只要能上网，就能够写文章并发布出来。如何才能实现这个后台呢？这就涉及到另外两个项目了：Travis-CI和Prose。
+
+更多内容请访问主博客：[打造Octopress博客的在线写作平台](http://xuhehuan.com/1761.html)。
