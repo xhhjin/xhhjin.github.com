@@ -11,10 +11,11 @@ before_script:
 - export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
 - bundle exec rake setup_github_pages[$REPO_URL]
 script:
+- set LANG=zh_CN.UTF-8
 - bundle exec rake generate
 after_script:
 - bundle exec rake deploy
 env:
   global:
   - GH_REPO="xhhjin/xhhjin.github.com"
-  - secure: "thEfITzWkMx8nOACts8pvJK9Ozhjxixt/KFwQyyQ4AheF71HR/cA6GQHjFXGGXNx9j9iMOTtIRXdP0NtsEenjbqokqnll/uRif4d+xNMs8Qj+Rhc83LTbDf6ePfhgcEVX+UZRjhesIRzWaE0159hL8vKAuMW0llIzoqbFZv9zt0="
+  - secure: "fdYK6//Afw4Mn8RBfjQcdWnmDxWRv+atUeO04/TSBEJFzDQs71zxCiJ20MbmCrn3jhB/AxoN7yUqKTE5yQf/93BAdumoBx+5kNeTFK1vhKm2FSfsGTDz3qsZtLXWNfh2F2VRtBm0ygJoHCtAMeyt2ugRKij8F4A/9OSJ6zY2b9w="
