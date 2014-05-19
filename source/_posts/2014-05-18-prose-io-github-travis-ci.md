@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: 打造Octopress博客在线写作平台
+date: 2014-05-18 23:50
 comments: true
 categories: Octopress
 ---
