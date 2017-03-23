@@ -160,19 +160,20 @@
 
 <section id="comment">
     <h1 class="title">发表评论</h1>
-   <!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread"></div>
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"github"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- Duoshuo Comment END -->
+   <!-- 网易云跟帖 Comment BEGIN -->
+   <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+   <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+   <script>
+   var cloudTieConfig = {
+     url: document.location.href, 
+     sourceId: "",
+     productKey: "8e8a3a2b326f45f5b6e2e10d061f2616",
+     target: "cloud-tie-wrapper"
+   };
+   var yunManualLoad = true;
+   Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+   </script>
+   <!-- 网易云跟帖 Comment END -->
 </section>
 
 </div>
